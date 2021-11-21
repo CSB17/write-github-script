@@ -19,13 +19,6 @@ jobs:
               body: "🎉 You've created this issue comment using GitHub Script, woop!!!"
             })
             
-name: Learning GitHub Script
-
-on:
-  issues:
-    types: [opened]
-
-jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
